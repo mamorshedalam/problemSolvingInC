@@ -23,8 +23,8 @@ int main()
      float totalProfit = salePrice - totalCost;
 
      printf("--------------------------------------------------------------------\n");
-     printf("Total cost: %f\n", totalCost);
-     printf("Total cost: %f\n", totalProfit);
+     printf("Total cost: %.2f\n", totalCost);
+     printf("Total Profit: %.2f\n", totalProfit);
 
      system("pause");
 

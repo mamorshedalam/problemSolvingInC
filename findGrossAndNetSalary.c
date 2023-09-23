@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 float calculateSalary(float DA, float HA, float OverTime, int BS);
 void printResults(char name[1024], float netSalary, float tex, float grossSalary);
@@ -75,8 +76,11 @@ float calculateSalary(float DA, float HA, float OverTime, int BS)
 
 void printResults(char name[1024], float netSalary, float tax, float grossSalary)
 {
+     printf("--------------------------------------------------------------------\n");
      printf("Mr./Mrs. %s.\n", name);
      printf("Your Net Salary is: %.2f\n", netSalary);
      printf("The tax you have to pay: %.2f\n", tax);
      printf("Your Gross Salary is: %.2f\n", grossSalary);
+
+     system("pause");
 };

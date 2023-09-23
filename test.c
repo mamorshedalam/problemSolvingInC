@@ -3,16 +3,12 @@
 
 int main()
 {
-     int a, b;
-
-     printf("Enter the value of A: ");
-     scanf("%d", &a);
-
-     printf("Enter the value of B: ");
-     scanf("%d", &b);
-
-     int result = pow(a, b) + pow(b, a);
-
-     printf("%d", result);
+     char _7iii = 'Z';
+     char b, c;
+     b = 'B';
+     c = "C";
+     double d = 1.2;
+     printf("hello world %c %c %c \n", _7iii, b, c);
+     printf("%f", d);
      return 0;
 }
